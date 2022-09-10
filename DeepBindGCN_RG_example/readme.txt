@@ -1,6 +1,6 @@
 
 initial the env  by typing:
-conda activate GraphDTA
+conda activate DeepBindGCN
 
 1, prepare ligands in all_data folder, convert ligand into dictory
 
