@@ -102,7 +102,7 @@ for datasetxxxx in 'L':
         best_epoch = -1
         
         #model.load_state_dict(torch.load(model_file_name))
-        model = torch.load("full_model_out2000.model")
+        model = torch.load("full_model_out2000_RG.model")
         G,P,N = predicting(model, device, test_loader,TRAIN_BATCH_SIZE)
         #for  i in range(len(N)):
         #     print (str(G[i])+','+str(P[i])+','+str(N[i][0]))
