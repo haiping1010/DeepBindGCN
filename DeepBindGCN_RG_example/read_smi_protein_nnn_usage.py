@@ -92,10 +92,11 @@ Interface=[]
 residuePair=[]
 
 
-uniq=[]
+
 
 
 def  pdb_graph(pdbfile):
+  uniq=[]
   Pposition={}
   ResinameP={}
   Interface=[]
