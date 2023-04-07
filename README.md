@@ -40,13 +40,17 @@ conda activate DeepBindGCN
 1. prepare ligands in all_data folder, convert ligand into dictory
 
 cd all_data
+
 bash run_all_dic.bash
+
 cd ..
 
 2. prepare the pocket in the pocket folder
 
 cd pocket
+
 python  extract_pocket.py
+
 cd ..
 
 3. preparing the input dataframe
@@ -54,11 +58,13 @@ cd ..
 bash run_all_n_add.bash
 
 4. run the prediction
+
 bash run_all_predict_add.bash
 
 5. sort the result
+
 bash score_sort_add.bash
------
+
 ## Usage of the DeepBindGCN_RG
 For using the DeepBindGCN_RG, please check the DeepBindGCN_RG_example's readme.txt file
 Before runing the file, please download the trained model from Repository's release file full_model_out2000_RG.model(https://github.com/haiping1010/DeepBindGCN/releases/tag/v1.0.0), and put it in the DeepBindGCN_RG_example folder.
@@ -70,13 +76,17 @@ conda activate DeepBindGCN
 1. prepare ligands in all_data folder, convert ligand into dictory
 
 cd all_data
+
 bash run_all_dic.bash
+
 cd ..
 
 2. prepare the pocket in the pocket folder
 
 cd pocket
+
 python  extract_pocket.py
+
 cd ..
 
 3. preparing the input dataframe
@@ -84,9 +94,11 @@ cd ..
 bash run_all_n_add.bash
 
 4. run the prediction
+
 bash run_all_predict_add.bash
 
 5. sort the result
+
 bash score_sort8.6_BA.bash
 
 ### Any questions are welcomed to contact the author by email hp.zhang@siat.ac.cn
