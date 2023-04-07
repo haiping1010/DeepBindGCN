@@ -1,5 +1,6 @@
 # DeepBindGCN
 
+##intallation and dependence
 Before use, please installing the environment:
 
 Install pytorch_geometric following instruction at https://github.com/rusty1s/pytorch_geometric
@@ -15,11 +16,12 @@ pip install torch-cluster==latest+cu101 -f https://pytorch-geometric.com/whl/tor
 pip install torch-spline-conv==latest+cu101 -f https://pytorch-geometric.com/whl/torch-1.4.0.html
 pip install torch-geometric
 
-
+##Usage of the DeepBindGCN_BC
 For using the DeepBindGCN_BC, please check the DeepBindGCN_BC_example's readme.txt file
 Before runing the file, please download the trained model from Repository's release file full_model_out2000_BC.model, and put it in the DeepBindGCN_BC_example folder.
 
-For using the DeepBindGCN_BC, please check the DeepBindGCN_RG_example's readme.txt file
+##Usage of the DeepBindGCN_RG
+For using the DeepBindGCN_RG, please check the DeepBindGCN_RG_example's readme.txt file
 Before runing the file, please download the trained model from Repository's release file full_model_out2000_RG.model, and put it in the DeepBindGCN_RG_example folder.
 
 
