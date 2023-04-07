@@ -31,7 +31,7 @@ pip install torch-geometric
 
 ## Usage of the DeepBindGCN_BC
 For using the DeepBindGCN_BC, please check the DeepBindGCN_BC_example's readme.txt file
-Before runing the file, please download the trained model from Repository's release file full_model_out2000_BC.model, and put it in the DeepBindGCN_BC_example folder.
+Before runing the file, please download the trained model from Repository's release file full_model_out2000_BC.model(https://github.com/haiping1010/DeepBindGCN/releases/tag/v1.0.0), and put it in the DeepBindGCN_BC_example folder.
 
 ### Detailed runing DeepBindGCN_BC example is:
 initial the env  by typing:
@@ -61,7 +61,7 @@ bash score_sort_add.bash
 -----
 ## Usage of the DeepBindGCN_RG
 For using the DeepBindGCN_RG, please check the DeepBindGCN_RG_example's readme.txt file
-Before runing the file, please download the trained model from Repository's release file full_model_out2000_RG.model, and put it in the DeepBindGCN_RG_example folder.
+Before runing the file, please download the trained model from Repository's release file full_model_out2000_RG.model(https://github.com/haiping1010/DeepBindGCN/releases/tag/v1.0.0), and put it in the DeepBindGCN_RG_example folder.
 
 ### Detailed runing DeepBindGCN_RG example is:
 initial the env  by typing:
